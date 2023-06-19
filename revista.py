@@ -42,10 +42,10 @@ class Revista(Material):
 
 
 if __name__ == '__main__':
-    r1 = Revista(codigo='1', autor='JSCA', titulo='REVISTA DE SOFTWARE', anio=2019, editorial='UG', disponible=True, cantidad_disponible=12,tipo='VIRTUAL')
-    print(r1)
+    revista52 = Revista(codigo='564', autor='VARIOS', titulo='Revista Medicina e Investigación Clínica Guayaquil', anio=2023, editorial='Monica Gilbert', disponible=True, cantidad_disponible=10,tipo='VIRTUAL')
+    print(revista52)
 
 
     # PRUEBA DE SETTER DE TIPO
-    r1.tipo = 'FISICO'
-    print(r1)
+    revista52.tipo = 'FISICO'
+    print(revista52)
