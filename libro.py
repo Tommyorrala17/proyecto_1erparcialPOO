@@ -42,5 +42,5 @@ class Libro(Material):
 
 
 if __name__ == '__main__':
-    l1 = Libro(codigo='1', autor='ELVIS', titulo='DESARROLLO EN PYTHON', anio=2019, editorial='USA', disponible=True, cantidad_disponible=10,tipo_pasta='DURA')
-    print(l1)
+     libro4 = Libro(codigo='4', autor='JOANNE ROWLING', titulo='HARRY POTTER Y EL CALIZ DE FUEGO', anio=2000, editorial='REINO UNIDO', disponible=True, cantidad_disponible=22,tipo_pasta='NORMAL')
+     print(libro4)
