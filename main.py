@@ -38,12 +38,11 @@ print(e3)
 print(e4)
 
 
-l1 = Libro(codigo='1', autor='', titulo='', anio=2019, editorial='', disponible=True, cantidad_disponible=10,tipo_pasta='')
-l2 = Libro(codigo='1', autor='', titulo='', anio=2019, editorial='', disponible=True, cantidad_disponible=10,tipo_pasta='')
-print(l1)
+libro4 = Libro(codigo='4', autor='JOANNE ROWLING', titulo='HARRY POTTER Y EL CALIZ DE FUEGO', anio=2000, editorial='REINO UNIDO', disponible=True, cantidad_disponible=22,tipo_pasta='NORMAL')
+print(libro4)
 
-r1 = Revista(codigo='1', autor='JSCA', titulo='REVISTA DE SOFTWARE', anio=2019, editorial='UG', disponible=True, cantidad_disponible=12,tipo='VIRTUAL')
-print(r1)
+revista52 = Revista(codigo='564', autor='VARIOS', titulo='Revista Medicina e Investigación Clínica Guayaquil', anio=2023, editorial='Monica Gilbert', disponible=True, cantidad_disponible=10,tipo='VIRTUAL')
+print(revista52)
 
 pedido1 = Pedido(id='095412447784', solicitante='Luis Macias', lista_material='DESARROLLO EN PYTHON',
                  fecha_prestamo='10/Junio/2023', fecha_devolucion='15/Junio/2023')
